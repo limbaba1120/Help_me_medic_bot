@@ -1,0 +1,9 @@
+.msger-chat {
+  min-height: calc(100vh - 372px);
+}
+
+@media (min-width: 1280px) {
+  .msger-chat {
+    min-height: calc(100vh - 200px);
+  }
+}
