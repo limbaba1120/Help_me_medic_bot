@@ -41,8 +41,6 @@
   * [백엔드 디렉토리 구조](#백엔드-디렉토리-구조)
   * [프론트엔드 디렉토리 구조](#프론트엔드-디렉토리-구조)
 
-&nbsp;  
-
 ## 백엔드 디렉토리 구조
 
 - backend/config
@@ -111,4 +109,4 @@
     - tailwind 설정과 기타 커스텀 스타일 시트
   - /setupProxy.js
     - Cross Origin 오류 방지를 위한 proxy 설정 (API 접근 시 사용)
-# Help_me_medic_bot
+
