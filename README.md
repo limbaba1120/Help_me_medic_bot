@@ -14,6 +14,26 @@
   - 2023 컴퓨터공학기초캡스톤디자인 캡스톤 경진대회 금상 수상 🥇
   - 2023 한국정보기술학회 하계종합학술대회 및 대학생논문경진대회 동상 수상 🥉
 
+## 📖 상세 내용
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8f42e21e-d5e4-4228-8ac5-e71d68a95943/Untitled.png)
+
+**The purpose of this research** is to present a web-based chatbot service that aims to overcome language barriers in medical services for foreigners visiting or residing in Korea. Unlike existing chatbot service, the proposed web-based chatbot is powered by an open-source API, which offers translation services that enable users to access medical service in their native or preferred language. By improving the accessibility and awareness of Korean medical services to foreigners, this approach enhances the quality of healthcare provided to foreigners in Korea.
+
+## 🛠️ 사용 기술 및 라이브러리
+
+- Java Spring
+- Spring JPA
+- React
+- Rasberry Pi
+
+## 📜논문
+
+[학술대회논문양식_최종.hwp](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f472c363-b854-43d0-99f9-15ab320c5187/%E1%84%92%E1%85%A1%E1%86%A8%E1%84%89%E1%85%AE%E1%86%AF%E1%84%83%E1%85%A2%E1%84%92%E1%85%AC%E1%84%82%E1%85%A9%E1%86%AB%E1%84%86%E1%85%AE%E1%86%AB%E1%84%8B%E1%85%A3%E1%86%BC%E1%84%89%E1%85%B5%E1%86%A8_%E1%84%8E%E1%85%AC%E1%84%8C%E1%85%A9%E1%86%BC.hwp)
+
+## 💡 깨달은 점
+
+
 &nbsp;  
 **Table of Contents**
   * [백엔드 디렉토리 구조](#백엔드-디렉토리-구조)
