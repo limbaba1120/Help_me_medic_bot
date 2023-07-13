@@ -6,8 +6,6 @@
 - 팀명: 헬프미! 메딕봇! 
 - 지도교수: 김도훈
 
-&nbsp;  
-
 ## 🚀 Project
 - (2023.03 ~ 06) Medical Chat Bot for Foreigners: 외국인 대상 의료 정보 제공 대화형 챗봇 SW 서비스
 
@@ -16,7 +14,9 @@
 
 ## 📖 상세 내용
 
-<img width="500" alt="image" src="https://github.com/limbaba1120/Help_me_medic_bot/assets/102224840/83185728-2b2a-4399-b692-35b2fc848db0">
+<p align="center">
+ <img width="600" alt="image" src="https://github.com/limbaba1120/Help_me_medic_bot/assets/102224840/83185728-2b2a-4399-b692-35b2fc848db0">
+</p>
 
 **The purpose of this research** is to present a web-based chatbot service that aims to overcome language barriers in medical services for foreigners visiting or residing in Korea. Unlike existing chatbot service, the proposed web-based chatbot is powered by an open-source API, which offers translation services that enable users to access medical service in their native or preferred language. By improving the accessibility and awareness of Korean medical services to foreigners, this approach enhances the quality of healthcare provided to foreigners in Korea.
 
@@ -35,7 +35,7 @@
 
 
 
-
+&nbsp;  &nbsp;  &nbsp;  
 &nbsp;  
 **Table of Contents**
   * [백엔드 디렉토리 구조](#백엔드-디렉토리-구조)
