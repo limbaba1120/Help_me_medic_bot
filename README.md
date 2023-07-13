@@ -16,7 +16,7 @@
 
 ## 📖 상세 내용
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8f42e21e-d5e4-4228-8ac5-e71d68a95943/Untitled.png)
+<img width="778" alt="image" src="https://github.com/limbaba1120/Help_me_medic_bot/assets/102224840/83185728-2b2a-4399-b692-35b2fc848db0">
 
 **The purpose of this research** is to present a web-based chatbot service that aims to overcome language barriers in medical services for foreigners visiting or residing in Korea. Unlike existing chatbot service, the proposed web-based chatbot is powered by an open-source API, which offers translation services that enable users to access medical service in their native or preferred language. By improving the accessibility and awareness of Korean medical services to foreigners, this approach enhances the quality of healthcare provided to foreigners in Korea.
 
