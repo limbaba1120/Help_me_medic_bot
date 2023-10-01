@@ -35,23 +35,23 @@ public class InitDb {
 
     public void dbInit() {
 
-      /*User user1 = createUser("admin", "admin", "admin", "Admin", "South Korea");
-      User user2 = createUser("test1", "test1", "test1", "中村 あげは", "Japan");
-      User user3 = createUser("test2", "test2", "test2", "조병찬", "South Korea");
-      em.persist(user1);
-      em.persist(user2);
-      em.persist(user3);
-
-      Post post1 = createPost(user1, "안녕하세요? 포럼 테스트용 게시물입니다. 포럼은 챗봇으로 해결되지 않는 문제를 집단지성으로 해결할 수 있는 공간입니다.");
-      Post post2 = createPost(user2, "頭がとても痛いのですが、どこに行けばいいですか?");
-      em.persist(post1);
-      em.persist(post2);
-
-      Comment comment1 = createComment(user2, post1, "こんにちは");
-      Comment comment2 = createComment(user3, post1, "반갑습니다.");
-      em.persist(comment1);
-      em.persist(comment2);*/
-
+//      User user1 = createUser("admin", "admin", "admin", "Admin", "South Korea");
+//      User user2 = createUser("test1", "test1", "test1", "中村 あげは", "Japan");
+//      User user3 = createUser("test2", "test2", "test2", "조병찬", "South Korea");
+//      em.persist(user1);
+//      em.persist(user2);
+//      em.persist(user3);
+//
+//      Post post1 = createPost(user1, "안녕하세요? 포럼 테스트용 게시물입니다. 포럼은 챗봇으로 해결되지 않는 문제를 집단지성으로 해결할 수 있는 공간입니다.");
+//      Post post2 = createPost(user2, "頭がとても痛いのですが、どこに行けばいいですか?");
+//      em.persist(post1);
+//      em.persist(post2);
+//
+//      Comment comment1 = createComment(user2, post1, "こんにちは");
+//      Comment comment2 = createComment(user3, post1, "반갑습니다.");
+//      em.persist(comment1);
+//      em.persist(comment2);
+//
 //      em.flush();
     }
 

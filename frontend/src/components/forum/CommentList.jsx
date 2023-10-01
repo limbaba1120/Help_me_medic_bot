@@ -8,7 +8,7 @@ const PostList = ({ id }) => {
 
   useEffect(() => {
     axios
-      .get(`https://메디챗.웹.한국:8443/posts/${id}/comments`)
+      .get(`http://localhost:8443/posts/${id}/comments`)
       .then((res) => {
         setCommentList(res.data.data);
       });

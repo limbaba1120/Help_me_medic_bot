@@ -26,7 +26,7 @@ const SignUp = () => {
     }
 
     axios
-      .post("https://메디챗.웹.한국:8443/users/join", {
+      .post("http://localhost:8443/users/join", {
         country: inputCountry.current.value,
         loginId: inputId.current.value,
         name: inputName.current.value,

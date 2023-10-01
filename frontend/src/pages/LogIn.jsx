@@ -10,19 +10,19 @@ const LogIn = () => {
     event.preventDefault();
 
     axios
-      .post("https://메디챗.웹.한국:8443/login", {
-        loginId: inputId.current.value,
-        password: inputPw.current.value,
-      })
-      .then((res) => {
-        sessionStorage.setItem("user_id", res.data.id);
-        sessionStorage.setItem("name", res.data.nickname);
-        window.location.reload();
-      })
-      .catch(() => {
-        alert("입력하신 아이디 또는 비밀번호가 일치하지 않습니다.");
-        window.location.reload();
-      });
+        .post("http://localhost:8443/login", {
+          loginId: inputId.current.value,
+          password: inputPw.current.value,
+        })
+        .then((res) => {
+          sessionStorage.setItem("user_id", res.data.id);
+          sessionStorage.setItem("name", res.data.nickname);
+          window.location.reload();
+        })
+        .catch(() => {
+          alert("입력하신 아이디 또는 비밀번호가 일치하지 않습니다.");
+          window.location.reload();
+        });
   };
 
   return (

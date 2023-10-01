@@ -11,7 +11,7 @@ const PostForm = () => {
 
     if (postInput.current.value.trim() !== "") {
       axios
-        .post(`https://메디챗.웹.한국:8443/posts`, {
+        .post(`http://localhost:8443/posts`, {
           userId: sessionStorage.getItem("user_id"),
           content: postInput.current.value,
         })

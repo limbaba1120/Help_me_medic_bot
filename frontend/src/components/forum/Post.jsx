@@ -9,7 +9,7 @@ const Post = ({ id, author, content }) => {
   const handleDelete = (event) => {
     event.preventDefault();
 
-    axios.delete(`https://메디챗.웹.한국:8443/posts/${id}`).then(() => {
+    axios.delete(`http://localhost:8443/posts/${id}`).then(() => {
       window.location.reload();
     });
   };

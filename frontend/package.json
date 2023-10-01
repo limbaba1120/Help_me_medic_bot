@@ -20,9 +20,9 @@
     "theme-change": "^2.5.0",
     "web-vitals": "^2.1.0"
   },
-  "homepage": "https://메디챗.웹.한국",
+  "homepage": "http://localhost",
   "scripts": {
-    "start": "HTTPS=true SSL_CRT_FILE=./certificate.crt SSL_KEY_FILE=./private.key react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

@@ -18,7 +18,7 @@ import java.util.Objects;
 import java.util.stream.Collectors;
 
 @RestController
-@CrossOrigin(origins = {"https://xn--2z1bo3hjrs.xn--yq5b.xn--3e0b707e/"})
+@CrossOrigin(origins = {"http://localhost:3000/"})
 @Api(tags = "지도 관련 API")
 public class MapController {
 

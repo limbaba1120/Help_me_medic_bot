@@ -11,7 +11,7 @@ const ResChatBubble = ({ message }) => {
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(async (pos) => {
         axios
-          .post("https://메디챗.웹.한국:8443/place", {
+          .post("http://localhost:8443/place", {
             keyword: "병원",
             latitude: pos.coords.latitude,
             longitude: pos.coords.longitude,

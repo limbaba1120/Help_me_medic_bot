@@ -30,8 +30,8 @@ import java.util.Objects;
 @Controller
 public class ChatController {
 
-    private static final String secretKey = "S2hFQnJtYVhQUXVZeUZQeGFXUXBUY0pMY1RwcWprV08=";
-    private static final String apiUrl = "https://9klnwopt8e.apigw.ntruss.com/custom/v1/10307/f0032dbc440d074bb96f85880cabc76b1b76b1cb1beee6e5ac977104e4c73457";
+    private static final String secretKey = "SGZPVU50bW1EZmlkT3JpaGN5ZXNISU1OQ3hVaFZ0dE4=";
+    private static final String apiUrl = "https://ykp8jjxh72.apigw.ntruss.com/custom/v1/11776/b4211c2a5639a8ced4a0c20833bf27d0594573f8cc979cdfca4827b122d0a31c";
 
     @GetMapping("chat")
     public String chat() {
@@ -81,8 +81,8 @@ public class ChatController {
         if(responseCode==200) { // 정상 호출
 
             BufferedReader in = new BufferedReader(
-                new InputStreamReader(
-                    con.getInputStream(), StandardCharsets.UTF_8));
+                    new InputStreamReader(
+                            con.getInputStream(), StandardCharsets.UTF_8));
             String decodedString;
             String jsonString = "";
             while ((decodedString = in.readLine()) != null) {
@@ -193,8 +193,8 @@ public class ChatController {
      */
     public String translate(String source, String target, String text) {
 
-        String clientId = "argmirrr8o"; // Client ID 및 Client Secret은 자신의 인증 정보를 발급 후 수정
-        String clientSecret = "Rt2hZzVphe0TG2r9iK4ByuODsxbvBLmqfQJzaFiM";
+        String clientId = "8zdwrni70v"; // Client ID 및 Client Secret은 자신의 인증 정보를 발급 후 수정
+        String clientSecret = "mlwIbVmQBDGy1O8i5vUsW1sSLa7jk4qTZGBEiVPJ";
 
         RestTemplate restTemplate = new RestTemplate();
         HttpHeaders headers = new HttpHeaders();
@@ -207,10 +207,10 @@ public class ChatController {
 
         HttpEntity<String> requestEntity = new HttpEntity<>(body, headers);
         ResponseEntity<String> responseEntity = restTemplate.exchange(
-            "https://naveropenapi.apigw.ntruss.com/nmt/v1/translation",
-            HttpMethod.POST,
-            requestEntity,
-            String.class
+                "https://naveropenapi.apigw.ntruss.com/nmt/v1/translation",
+                HttpMethod.POST,
+                requestEntity,
+                String.class
         );
 
         if (responseEntity.getStatusCode() == HttpStatus.OK) {
@@ -234,8 +234,8 @@ public class ChatController {
      * 언어 감지 메소드
      */
     public String detectLangs(String input) {
-        String clientId = "argmirrr8o"; //애플리케이션 클라이언트 아이디값";
-        String clientSecret = "Rt2hZzVphe0TG2r9iK4ByuODsxbvBLmqfQJzaFiM"; //애플리케이션 클라이언트 시크릿값";
+        String clientId = "8zdwrni70v"; //애플리케이션 클라이언트 아이디값";
+        String clientSecret = "mlwIbVmQBDGy1O8i5vUsW1sSLa7jk4qTZGBEiVPJ"; //애플리케이션 클라이언트 시크릿값";
 
         String query;
         query = URLEncoder.encode(input, StandardCharsets.UTF_8);

@@ -13,7 +13,7 @@ const CommentForm = ({ id }) => {
 
     if (commentInput.current.value.trim() !== "") {
       axios
-        .post(`https://메디챗.웹.한국:8443/posts/${id}/comments`, {
+        .post(`http://localhost:8443/posts/${id}/comments`, {
           userId: sessionStorage.getItem("user_id"),
           content: commentInput.current.value,
         })
