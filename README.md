@@ -1,6 +1,6 @@
 [![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=4&animation=fadeIn&height=230&section=header&text=헬프미!%20메딕봇!&desc=2023학년도%201학기%20컴퓨터공학기초캡스톤디자인&fontSize=40&fontAlign=50&fontAlignY=33&descSize=20&descAlign=50&descAlignY=55)](https://github.com/2023-KDH-Capstone-Design)
 
-## 외국인 대상 의료 정보 제공 대화형 챗봇 서비스
+## 🤖 외국인 대상 의료 정보 제공 대화형 챗봇 서비스
 
 <p align="center">
  <img width="600" alt="image" src="https://github.com/limbaba1120/Help_me_medic_bot/assets/102224840/83185728-2b2a-4399-b692-35b2fc848db0">
