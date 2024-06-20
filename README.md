@@ -1,24 +1,12 @@
 [![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=4&animation=fadeIn&height=230&section=header&text=헬프미!%20메딕봇!&desc=2023학년도%201학기%20컴퓨터공학기초캡스톤디자인&fontSize=40&fontAlign=50&fontAlignY=33&descSize=20&descAlign=50&descAlignY=55)](https://github.com/2023-KDH-Capstone-Design)
 
-## 💁🏻 About Team
-> 경기대학교 소프트웨어경영대학 AI컴퓨터공학부  
-> 2023학년도 1학기 컴퓨터공학기초캡스톤디자인
-- 팀명: 헬프미! 메딕봇! 
-- 지도교수: 김도훈
-
-## 🚀 Project
-- (2023.03 ~ 06) Medical Chat Bot for Foreigners: 외국인 대상 의료 정보 제공 대화형 챗봇 SW 서비스
-
-  - 2023 컴퓨터공학기초캡스톤디자인 캡스톤 경진대회 금상 수상 🥇
-  - 2023 한국정보기술학회 하계종합학술대회 및 대학생논문경진대회 동상 수상 🥉
-
-## 📖 상세 내용
+## 외국인 대상 의료 정보 제공 대화형 챗봇 서비스
 
 <p align="center">
  <img width="600" alt="image" src="https://github.com/limbaba1120/Help_me_medic_bot/assets/102224840/83185728-2b2a-4399-b692-35b2fc848db0">
 </p>
 
-**The purpose of this research** is to present a web-based chatbot service that aims to overcome language barriers in medical services for foreigners visiting or residing in Korea. Unlike existing chatbot service, the proposed web-based chatbot is powered by an open-source API, which offers translation services that enable users to access medical service in their native or preferred language. By improving the accessibility and awareness of Korean medical services to foreigners, this approach enhances the quality of healthcare provided to foreigners in Korea.
+## 📖 개발 사항
 
 ## 🛠️ 사용 기술 및 라이브러리
 
@@ -32,7 +20,17 @@
 - 참고자료를 안보고 직접 코딩을 하기에는 아직 많이 부족하다고 느꼈다.
 - 프로젝트를 통해 백엔드 기술을 많이 배울수 있었고 앞으로 꾸준히 공부를 해서 더 많은 기능을 개발하고 코드를 이해하기 쉽게 간결하게 만들고 싶다.
 
+## 💁🏻 About Team
+> 경기대학교 소프트웨어경영대학 AI컴퓨터공학부  
+> 2023학년도 1학기 컴퓨터공학기초캡스톤디자인
+- 팀명: 헬프미! 메딕봇! 
+- 지도교수: 김도훈
 
+## 🚀 Project
+- (2023.03 ~ 06) Medical Chat Bot for Foreigners: 외국인 대상 의료 정보 제공 대화형 챗봇 SW 서비스
+
+  - 2023 컴퓨터공학기초캡스톤디자인 캡스톤 경진대회 금상 수상 🥇
+  - 2023 한국정보기술학회 하계종합학술대회 및 대학생논문경진대회 동상 수상 🥉
 
 ## ䷦ 백엔드 디렉토리 구조
 
